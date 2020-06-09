@@ -15,6 +15,7 @@ public class UntitledTestCase {
   private String baseUrl;
   private boolean acceptNextAlert = true;
   private StringBuffer verificationErrors = new StringBuffer();
+//commentaire
 
   @Before
   public void setUp() throws Exception {
