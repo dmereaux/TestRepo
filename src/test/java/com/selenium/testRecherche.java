@@ -45,7 +45,7 @@ public class testRecherche {
 	    baseUrl = "http://127.0.0.1/";
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get(baseUrl + "prestashop/index.php");
-		// se connecter à la base
+		// se connecter Ã  la base
 		// verification du contenu de la base
 		  String inputXml = 
 				  "<dataset>" + 
@@ -72,6 +72,7 @@ public class testRecherche {
 	// Create a test using SignInPage and PageProject to check successful login  
 	@Test
 	public void testRecherche1() throws Exception {
+		assertTrue(True);
 	}
 
 	  @After
