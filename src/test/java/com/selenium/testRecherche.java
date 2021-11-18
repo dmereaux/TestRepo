@@ -72,7 +72,7 @@ public class testRecherche {
 	// Create a test using SignInPage and PageProject to check successful login  
 	@Test
 	public void testRecherche1() throws Exception {
-		assertTrue(True);
+		assertTrue(1==1);
 	}
 
 	  @After
